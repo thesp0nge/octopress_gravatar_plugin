@@ -20,7 +20,7 @@ module Jekyll
     end
 
     def render(context)
-      "<img class=\"gravatar\" src=\"http://www.gravatar.com/avatar/#{@hash}></img>"
+      "<img class=\"gravatar\" src=\"http://www.gravatar.com/avatar/#{@hash}\"/>"
     end
 
   end
